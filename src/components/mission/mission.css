@@ -1,0 +1,36 @@
+.m-para{
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+.mission-container{
+    margin-top: 150px;
+}
+.m-boxes{
+    height: 300px;
+    width: 270px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.mid{
+    background-color: rgb(54, 172, 54);
+
+}
+.m-boxes h3 {
+    font-size: 30px;
+}
+.missions{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.m-boxes:hover{
+background-color :rgb(54, 172, 54) ;
+}

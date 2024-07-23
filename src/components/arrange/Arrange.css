@@ -1,0 +1,36 @@
+.boing{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+}
+.boing h3{
+    font-size: 35px;
+}
+.Arr-boxes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-content: center;
+    margin-top: 50px;
+}
+.arr-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.arr-box h3{
+    font-size: 35px;
+}
+.hope{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 40px;
+}
+.hope p{
+    color: lightgray;
+}

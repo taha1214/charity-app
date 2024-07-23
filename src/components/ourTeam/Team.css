@@ -1,0 +1,34 @@
+.t-main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.t-main h3{
+    font-size: 43px;
+}
+.t-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-content: center;
+    margin-top: 150px;
+}
+.t-boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+.t-box img{
+    width: 200px;
+    height: 200px;
+}
+.t-box{
+    text-align: center;
+}
+.t-box h3{
+    font-size: 25px;
+}

@@ -1,0 +1,26 @@
+.e-container{
+    margin-top:100px ;
+}
+.e-para{
+    text-align:center ;
+}
+.e-para h3{
+    font-size: 43px;
+    color: darkblue;
+}
+.e-box{
+    height: 400px;
+    width: 275px;
+}
+.case-boxes{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+}
+.case-boxes img{
+    width: 275px;
+    height: 200px;
+}

@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.main{
+  height: 1000px;
+  background-color: black;
+}
+button:hover{
+  background-color: green;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+.about{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}

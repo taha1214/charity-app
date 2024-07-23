@@ -1,0 +1,21 @@
+.green-container{
+    margin-top: 200px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(54, 172, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.green-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* gap: 50px; */
+    justify-content: space-evenly;
+    margin-top: 70px;
+    color: #fff;
+}
+.green-main h3{
+    font-size: 35px;
+}

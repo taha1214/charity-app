@@ -1,0 +1,36 @@
+.blog-container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.blog-heading{
+    text-align: center;
+}
+.blog-heading h3{
+    font-size: 35px;
+}
+.blog-pics{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    text-align: justify;
+}
+.blog-pics img{
+    height: 250px;
+    width: 350px;
+}
+.blog-pics h3{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 550px) {
+    .blog-container {
+      margin-top: 350px;
+    }
+  }

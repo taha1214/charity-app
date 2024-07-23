@@ -1,0 +1,44 @@
+.upper-nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+    height: 50px;
+    border: 1px solid lightgray;
+    padding-inline: 40px;
+}
+.navbar h1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.navbar{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100px;
+    box-shadow: 5px 1px grey;
+    background-color: #fff;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 35px;
+}
+.don{
+    margin-top: 15px;
+    background-color:rgb(54, 172, 54);
+    color: #fff;
+    height: 60px;
+    width: 140px;
+}
+.dot{
+    color:rgb(54, 172, 54) ;
+    font-size: 60px;
+}
